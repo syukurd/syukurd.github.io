@@ -1,6 +1,8 @@
 @font-face {
   font-family: "mainlux";
-  src: url("./digitype-studio-mainlux-light.otf") format("otf");
+  src: url("./digitype-studio-mainlux-light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 body {
   background-color: black;
