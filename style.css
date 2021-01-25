@@ -1,9 +1,12 @@
+@font-face {
+  font-family: "mainlux";
+  src: url("./digitype-studio-mainlux-light.otf") format("otf");
+}
 body {
   background-color: black;
   color: #f0e68c;
   font-family: mainlux;
 }
-
 .navbar {
   background-color: #f0e68c !important;
   height: 80px;
