@@ -1,0 +1,103 @@
+body {
+  background-color: black;
+  color: #f0e68c;
+  font-family: mainlux;
+}
+
+.navbar {
+  background-color: #f0e68c !important;
+  height: 80px;
+}
+.container-fluid {
+  margin-left: 65%;
+}
+.beranda {
+  color: #f0e68c;
+  height: 40rem;
+}
+
+.nav-item {
+  padding-left: 1rem;
+}
+.photo {
+  background: url("./src/img/pb.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.txt {
+  padding-top: 4rem;
+}
+@media (max-width: 576px) {
+  .profile {
+    margin-top: 250px;
+  }
+  .set {
+    margin-top: 1%;
+    margin-left: 1%;
+    position: fixed;
+    z-index: 3;
+  }
+}
+.contact {
+  margin-top: 4rem;
+  text-align: center;
+  background-color: #f0e68c;
+  color: black;
+  height: 20rem;
+}
+.profile {
+  margin-left: 15%;
+  text-align: center;
+  width: 70%;
+}
+h2 {
+  font-size: 50pt;
+  text-align: center;
+}
+
+h3 {
+  font-size: 14pt;
+  text-align: center;
+}
+
+.syukur {
+  margin: 40% 0 0 5%;
+}
+
+.set {
+  margin-top: 30%;
+  margin-left: 90%;
+  position: fixed;
+  z-index: 3;
+}
+.skills {
+  text-align: center;
+}
+.masuk {
+  background-color: black;
+  padding: 5rem 0 5rem 0;
+
+  text-align: center;
+}
+.work {
+  text-align: center;
+}
+.education {
+  padding-top: 5rem;
+  text-align: center;
+}
+.jarak {
+  height: 20 00px;
+  background-color: #f0e68c;
+}
+.jup {
+  padding-top: 5rem;
+  background-color: #f0e68c;
+  color: black;
+  text-align: center;
+}
+.col {
+  padding: 0 0 10 0;
+}

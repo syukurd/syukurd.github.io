@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, #F247A6, #FF1D09);
+}
+
+section:nth-child(1) {
+    background: linear-gradient(180deg, #F247A6, #FF1D09);
+}
+
+h1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top: 45vh;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+/* The main program starts */
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    background: #FF1D09;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+/* Some constant values which will apply on every projects. */
+.container .aos_container .aos_content {
+    position: relative;
+    height: calc(1 * 350px);
+    width: calc(1.4142 * 350px);
+    margin: 20px;
+    transition: .5s;
+    transition-property: opacity, transform;
+}
+
+.container .aos_container .aos_content {
+    opacity: 0;
+}
+
+.container .aos_container.active .aos_content {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) rotate3d(0deg, 0deg, 0deg) scale(1) skew(0deg, 0deg);
+}
+
+/* User choice of animation. */
+
+.container #box1 .aos_content {
+    background: indigo;
+    transform: translateX(-200px);
+}
+
+.container #box2 .aos_content {
+    background: #40DF30;
+    transform: translateX(200px);
+}
+
+.container #box3 .aos_content {
+    background: #2109EA;
+    transform: scale(0);
+}
+
+.container #box4 .aos_content {
+    background: #02726D;
+    transform: scale(0);
+}
+
+.container #box5 .aos_content {
+    background: aqua;
+    transform: rotateX(90deg);
+}
+
+.container #box6 .aos_content {
+    background: #ff00ff;
+    transform: rotateX(90deg);
+}
+
+.container #box7 .aos_content {
+    background: aqua;
+    transform: translate3d(300px, 300px, 0);
+}
+
+.container #box8 .aos_content {
+    background: #ff00ff;
+    transform: translate3d(-300px, -300px, 0);
+}
+
+.container #box1.active .aos_content {
+    transform: translateX(0);
+}
+
+.container #box2.active .aos_content {
+    transform: translateX(0);
+}
+
+.container #box3.active .aos_content {
+    transform: scale(1);
+}
+
+.container #box4.active .aos_content {
+    transform: scale(1);
+}
+
+.container #box5.active .aos_content {
+    transform: rotateX(0deg);
+}
+
+.container #box6.active .aos_content {
+    transform: rotateX(0deg);
+}
+
+.container #box7.active .aos_content {
+    transform: translate3d(0, 0, 0);
+}
+
+.container #box8.active .aos_content {
+    transform: translate3d(0, 0, 0);
+}
