@@ -21,8 +21,8 @@ body {
   height: 40rem;
 }
 
-.nav-item {
-  padding-left: 1rem;
+.collapse {
+  background-color: #f0e68c;
 }
 .photo {
   background: url("./src/img/pb.jpg");
