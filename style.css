@@ -12,6 +12,7 @@ body {
 .navbar {
   background-color: #f0e68c !important;
   height: 80px;
+  z-index: 4;
 }
 .container-fluid {
   margin-left: 50%;
