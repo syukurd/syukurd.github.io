@@ -6,11 +6,11 @@
 }
 body {
   background-color: black;
-  color: #f0e68c;
+  color: #e8cc82;
   font-family: mainlux;
 }
 .navbar {
-  background-color: #f0e68c !important;
+  background-color: #e8cc82 !important;
   height: 80px;
   z-index: 4;
 }
@@ -18,12 +18,12 @@ body {
   margin-left: 50%;
 }
 .beranda {
-  color: #f0e68c;
+  color: #e8cc82;
   height: 40rem;
 }
 
 .collapse {
-  background-color: #f0e68c;
+  background-color: #e8cc82;
 }
 .photo {
   background: url("./src/img/pb.jpg");
@@ -49,7 +49,7 @@ body {
 .contact {
   margin-top: 4rem;
   text-align: center;
-  background-color: #f0e68c;
+  background-color: #e8cc82;
   color: black;
   height: 20rem;
 }
@@ -96,11 +96,11 @@ h3 {
 }
 .jarak {
   height: 20 00px;
-  background-color: #f0e68c;
+  background-color: #e8cc82;
 }
 .jup {
   padding-top: 5rem;
-  background-color: #f0e68c;
+  background-color: #e8cc82;
   color: black;
   text-align: center;
 }
