@@ -4,6 +4,10 @@ body {
   font-family: mainlux;
 }
 
+@font-face {
+  font-family: "mainlux";
+}
+
 .navbar {
   background-color: #f0e68c !important;
   height: 80px;
